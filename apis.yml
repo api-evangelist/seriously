@@ -1,8 +1,24 @@
 aid: seriously
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seriously.png
 name: Seriously
-description: 'Seriously is a company surfaced as a portfolio company of northzone and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Seriously Digital Entertainment is a mobile game studio best known for the Best Fiends
+  match-3 puzzle franchise, a bug-versus-slug adventure set in the world of Minutia and available on
+  iOS and Android. Founded in Helsinki with a Los Angeles presence and backed by Northzone, the studio
+  was acquired by Playtika. It is a consumer entertainment company: its public web presence (seriously.com,
+  which now redirects to bestfiends.com) is a game marketing and community site with app-store download
+  links and social channels. Seriously publishes no public API, developer portal, SDK, or documentation
+  surface, so this API Evangelist profile carries company identity and a domain-security probe only.'
 url: https://raw.githubusercontent.com/api-evangelist/seriously/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Gaming
+- Mobile Games
+- Entertainment
+- Puzzle Games
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/seriously-domain-security.yml
 - type: Website
   url: http://www.seriously.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
