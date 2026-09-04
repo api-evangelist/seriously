@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://www.seriously.com', status: 301, note: 'declared website redirects to https://www.bestfiends.com/ — a different registrable domain (seriously.com -> bestfiends.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seriously.png
 name: Seriously
 description: 'Seriously Digital Entertainment is a mobile game studio best known for the Best Fiends
